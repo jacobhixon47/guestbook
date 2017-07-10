@@ -3,6 +3,7 @@ import Nav from './Nav';
 import SignUpForm from './SignUpForm';
 import SignInForm from './SignInForm';
 import FlexRow from './Flex/FlexRow';
+import colors from './colors';
 
 class Guestbook extends Component {
   constructor(props) {
@@ -20,13 +21,12 @@ class Guestbook extends Component {
     return (
       <div className="Guestbook">
         <Nav>
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Learn More</a>
-          <a href="#">Work</a>
+          {/* <a href="#">GuestBook</a> */}
+          <a href="#">Create Guestbook</a>
+          <a href="#">Sign Guestbook</a>
         </Nav>
         <FlexRow>
-          <h1 style={{color: 'palevioletred'}}>GuestBook</h1>
+          <h1>GuestBook</h1>
         </FlexRow>
         <FlexRow>
           <SignUpForm style={{flex: 4}}/>
