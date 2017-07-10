@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Input from './FormComponents/Input';
-import Button from './FormComponents/Button';
+import Input from './Components/Input';
+import Button from './Components/Button';
 import FlexRow from './Flex/FlexRow';
 
 class SignInForm extends Component {
